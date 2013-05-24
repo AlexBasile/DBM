@@ -1217,7 +1217,7 @@ public class Controller {
         double simTi;
         double simAb;
         for (Paper p : n_wr) {
-            
+            System.out.print(("pippo"));
             //estraggo i vettori del paper comparare 
             double[] v_ti2 = this.extract_word_vector2(p.getTitle_Vector(), false);
             double[] v_ab2 = this.extract_word_vector2(p.getAbstract_Vector(), true);
